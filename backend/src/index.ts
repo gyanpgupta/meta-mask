@@ -2,6 +2,8 @@ import cors from 'cors';
 import express from 'express';
 import bodyParser from 'body-parser';
 
+import { servicesRoutes } from './services';
+
 require('dotenv').config();
 
 const app = express();
@@ -13,6 +15,13 @@ const app = express();
 */
 app.use(bodyParser.json());
 app.use(cors());
+
+/*
+-----------------------------
+	API Route mount on /api
+-----------------------------
+*/
+app.use('/api', servicesRoutes);
 
 /*
 --------------------------
