@@ -77,7 +77,7 @@ const create = (req: Request, res: Response, next: NextFunction) => {
           );
         }
 
-        user.nonce = Math.floor(Math.random() * 10000);
+        user.nonce = Math.floor(Math.random() * 1000000);
         return user.save();
       })
       /*---------------------------

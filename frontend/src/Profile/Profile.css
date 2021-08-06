@@ -1,0 +1,72 @@
+.identicon {
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.submit-button {
+  margin: 10px auto;
+  width: 300px;
+}
+
+.submit-button:hover {
+  color: #0f68d4 !important;
+  background: #fff;
+  border-color: #0f68d4;
+}
+
+.submit-mm {
+  border-radius: 50px;
+  border: 2px solid #f7f9f5;
+  padding: 6px 20px;
+  height: 37px;
+  font-size: 14px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+  background: #1c3549;
+  border-color: #1c3549;
+}
+.logout-button {
+  margin: 10px auto;
+  width: 300px;
+}
+
+.logout-button:hover {
+  color: #0f68d4 !important;
+  background: #fff;
+  border-color: #0f68d4;
+}
+
+.logout-mm {
+  background-color: #1f8ceb;
+  border-color: #1f8ceb;
+  border-radius: 50px;
+  border: 2px solid #f7f9f5;
+  padding: 6px 20px;
+  height: 37px;
+  font-size: 14px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  font-weight: 500;
+  color: #fff;
+}
+
+.mtb-2 {
+  margin: 12px 0px;
+}
+
+.username b {
+  text-transform: capitalize;
+}

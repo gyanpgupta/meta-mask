@@ -19,7 +19,7 @@ User.init(
   {
     nonce: {
       allowNull: false,
-      type: INTEGER.UNSIGNED, // SQLITE will use INTEGER
+      type: INTEGER, // SQLITE will use INTEGER
       defaultValue: (): number => Math.floor(Math.random() * 1000000), // Initialize with a random nonce
     },
     publicAddress: {
